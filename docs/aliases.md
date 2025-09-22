@@ -23,6 +23,16 @@ pnpm add lodash@npm:awesome-lodash
 No changes in code are needed. All the requires of `lodash` will now resolve to
 `awesome-lodash`.
 
+The general pattern is:
+
+```
+<real-name>@npm:<target-package>[@version]
+```
+
+- `<real-name>`: the name you’ll use in your code
+- `<target-package>`: the actual package name on npm
+- `[@version]`: optional version specifier
+
 Sometimes you'll want to use two different versions of a package in your
 project. Easy:
 
